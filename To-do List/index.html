@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+</head>
+<body>
+    <h1>Agregar tarea</h1>
+    <form onkeydown="return event.key!='Enter';">
+        <input type="text" id="campoTarea" name="nombre" placeholder="Tarea...">
+        <button id="agregarTarea" type="button">Agregar</button>
+    </form>
+    <h2>Listado de tareas</h2>
+    <ul id="lista-tareas"></ul>
+    <p id="keylistener"></p>
+    <script src="js/makeElement.js"></script>
+
+</body>
+</html>
